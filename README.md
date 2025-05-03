@@ -41,8 +41,13 @@ product_category:
 
 Supported sections: `q`, `category`, `sub_category`, `product_category`
 
-> ❗ Non-supported sections like `muistio:` are ignored.
+✅ Supported sections:
+- q – Free-text keyword search (e.g., product names like ryzen, iphone)
+- category, sub_category, product_category – Use Tori.fi’s category codes
 
+ℹ️ To find category codes, go to Tori.fi, navigate to a category, and check the URL for the numeric ID.
+
+🚫 Unsupported sections (e.g., muistio:) will be ignored.
 ### 2. Settings
 
 Edit `settings.py` to adjust runtime behavior:
