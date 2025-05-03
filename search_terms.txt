@@ -1,0 +1,18 @@
+
+q:
+ryzen, iphone
+
+
+category:
+
+
+sub_category:
+1.93.3217,
+
+product_category:
+2.93.3217.39,
+
+
+// muistio is not taken into account
+muistio:
+0.93, 1.93.3217, 39
